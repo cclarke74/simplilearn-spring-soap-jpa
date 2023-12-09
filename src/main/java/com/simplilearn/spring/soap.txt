@@ -1,0 +1,41 @@
+
+
+https://spring.io/guides/gs/producing-web-service/
+
+http://localhost:8081/ws/users.wsdl
+
+STEPS TO CREATE A SOAP PROJECT WITH SPRING WEB SERVICES
+*******************************************************
+
+1. Create the xsd files manually.
+2. Generate the templates using: maven clean install
+   - Set up the plugin first.
+3. Create the EndPoints
+4. Create the Web Service Configuration
+
+SOAP (Simple Object Access Protocol)
+
+SOAP is an XML-based messaging protocol that allows applications to exchange structured
+information over the internet. It provides a standard way for applications to communicate
+with each other, regardless of the programming language or platform they use.
+
+WSDL (Web Services Description Language)
+
+WSDL is an XML-based language used to describe web services and their operations, inputs,
+and outputs. It provides a way for developers to understand how to interact with a web service
+without having to access its source code.
+
+
+UDDI (Universal Description, Discovery, and Integration)
+
+UDDI is a registry standard for web services, allowing businesses to publish and discover services
+over the internet. It provides a centralized directory where developers can search for and obtain
+information about available web services.
+
+XSD
+
+A file with the XSD file extension is most likely an XML Schema file; a text-based file format that
+defines validation rules for an XML file and explains the XML form.
+
+
+TNS means this name space
