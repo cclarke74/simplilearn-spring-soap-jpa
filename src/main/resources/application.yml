@@ -1,0 +1,28 @@
+#Tomcat Server
+server:
+  port: 8080
+  
+# Logger  
+logging.level:
+  web: DEBUG  
+  '[com.simplilearn.spring]': DEBUG
+  
+spring:
+# Jackson Settings
+  jackson:
+    date-format: "yyyy-MM-dd"
+    
+  #Database Settings 
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: root
+    password:
+    
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: validate
+        '[format_sql]': true
+        dialect: org.hibernate.dialect.MySQLDialect
+        naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
